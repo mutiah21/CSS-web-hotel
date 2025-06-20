@@ -1,0 +1,863 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6efe0;
+}
+
+
+#wrapper {
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+#top {
+    position: relative;
+}
+
+#menu {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#menu p {
+    position: absolute;
+    font-size: 22px;
+    padding-left: 100px;
+    text-align: center;
+    left: 30px;
+    right: 120px;
+    padding-top: 40px;
+    line-height: 1.7;
+    font-weight: bold;
+    color: #126362;
+}
+
+.icon-1 {
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.button {
+    padding-top: 2rem;
+}
+
+.button ul {
+    display: flex;
+    list-style: none;
+}
+
+.button ul li {
+    width: 25%;
+}
+
+.button a.tombol-biru {
+    background-image: url(img/tombol\ biru.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 7/3;
+    display: block;
+    background-position: center;
+    cursor: pointer;
+}
+
+.tombol-biru:hover {
+    color: #000000;
+    font-size: 25px;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.button a.tombol-merah {
+    background-image: url(img/tombol\ merah.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 7/3;
+    display: block;
+    background-position: center;
+    cursor: pointer;
+}
+
+.tombol-merah:hover {
+    color: #000000;
+    font-size: 24px;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.button a.tombol-kuning {
+    background-image: url(img/tombol\ kuning.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 7/3;
+    display: block;
+    background-position: center;
+    cursor: pointer;
+}
+
+.tombol-kuning:hover {
+    color: #000000;
+    font-size: 24px;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.button a.tombol-oren {
+    background-image: url(img/tombol\ oren.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    aspect-ratio: 7/3;
+    display: block;
+    background-position: center;
+    cursor: pointer;
+}
+
+.tombol-oren:hover {
+    color: #000000;
+    font-size: 26px;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.button li a {
+    padding-right: 10px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.section_2 {
+    position: relative;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.section-2_1 {
+    position: relative;
+}
+
+.section-2_1 img {
+    display: block;
+}
+
+.text-tosca {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 20%;
+    right: 16%;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+        -2px -2px 0 black,
+        2px -2px 0 black,
+        -2px  2px 0 black,
+        2px  2px 0 black,
+        -2px  0px 0 black,
+        2px  0px 0 black,
+        0px -2px 0 black,
+        0px  2px 0 black;
+}
+
+.button-tosca {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background: #FFF;
+}
+.text-daun, .text-tulip {
+    width: 444px;
+}
+
+.text-daun{
+    background-image: url(/img/daun.png);
+    background-repeat: no-repeat;
+    background-position: 93% 80%;
+}
+
+.text-daun-lagi, .text-tulip-lagi {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: 
+        -2px -2px 0 #8d6219,
+        2px -2px 0 #8d6219,
+        -2px  2px 0 #8d6219,
+        2px  2px 0 #8d6219,
+        -2px  0px 0 #8d6219,
+        2px  0px 0 #8d6219,
+        0px -2px 0 #8d6219,
+        0px  2px 0 #8d6219;
+    
+}
+
+.button-tosca .text-daun, .button-tosca .text-tulip {
+    background-color: #bbe0de;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 175px;
+    border-radius: 10px;
+}
+
+.button-tosca .text-daun a, .button-tosca .text-tulip a {
+    background-image: url(img/button\ kiri.png);
+    background-repeat: no-repeat;
+    width: 198px;
+    height: 45px;
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-left: 2rem;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.button-tosca a:hover {
+    color: #000000;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.button-tosca_kanan .text-tulip {
+    background-color: #bbe0de;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 175px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.button-tosca a.tombol-tulip {
+    background-image: url(img/button\ kanan.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-size: contain;
+    height: 2.5rem;
+    color: white;
+    font-weight: bold;
+    padding-left: 1.2rem;
+    padding-top: 0.2rem;
+    margin-left: 41rem;
+    margin-top: -2.5rem;
+}
+
+.text-tulip {
+    background-image: url(img/tulips.png);
+    background-repeat: no-repeat;
+    background-position: 90% 80%;
+}
+
+.icon-2 {
+    position: absolute;
+    margin-top: -35rem;
+    margin-left: 70px;
+}
+
+
+
+.section_3 {
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.kotak-coklat {
+    position: absolute;
+    padding-top: 0;
+    margin-top: -650px;
+    margin-left: 20px;
+}
+
+.text-coklat {
+    position: absolute;
+    margin-top: -600px;
+    font-size: 23px;
+    line-height: 1.5;
+    margin-left: 55px;
+    font-weight: bold;
+    color: #a26b36;
+    text-shadow: 
+        -2px -2px 0 #ffffff,
+        2px -2px 0 #fff,
+        -2px  2px 0 #fff,
+        2px  2px 0 #fff,
+        -2px  0px 0 #fff,
+        2px  0px 0 #fff,
+        0px -2px 0 #fff,
+        0px  2px 0 #fff;   
+}
+
+.box-coklat {
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 200px;
+}
+
+.tombol-coklat {
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 320px;
+}
+
+
+.text-cursor {
+    position: absolute;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: -190px;
+    margin-left: 250px;
+    color: #846e5a;
+    cursor: pointer;
+    text-shadow: 
+        -2px -2px 0 #ffffff,
+        2px -2px 0 #fff,
+        -2px  2px 0 #fff,
+        2px  2px 0 #fff,
+        -2px  0px 0 #fff,
+        2px  0px 0 #fff,
+        0px -2px 0 #fff,
+        0px  2px 0 #fff;  
+}
+
+.tombol-coklat {
+    position: relative;
+}
+
+.tombol-coklat a.button-coklat {
+    background-image: url(img/tombol\ cokelat.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    text-decoration: none;
+    color: #846e5a;
+    font-size: 27px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+a.button-coklat:hover {
+    color: #000000;
+    font-size: 29px;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.button-coklat p {
+    margin-left: 3.5rem;
+    padding-top: 5px;
+}
+
+a.button-coklat {
+    height: 4rem;
+}
+
+.section_4 {
+    position: relative;
+    top: 2.5rem;
+}
+
+.kotak-oren {
+    position: absolute;
+    margin-top: -60.5rem;
+    margin-left: 7rem;
+}
+
+.text-inti-oren {
+    position: absolute;
+    margin-top: -19rem;
+    margin-left: 4rem;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #c05143;
+    text-shadow: 
+        -2px -2px 0 #ffffff,
+        2px -2px 0 #fff,
+        -2px  2px 0 #fff,
+        2px  2px 0 #fff,
+        -2px  0px 0 #fff,
+        2px  0px 0 #fff,
+        0px -2px 0 #fff,
+        0px  2px 0 #fff;
+}
+
+.kotak-oren2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.5rem;
+    margin-top: -40rem;
+    
+}
+
+.kotak-oren2 .text-oren_kiri, .kotak-oren2 .text-oren_kanan {
+    background-color: #ffe1d7;
+    border-radius: 10px;
+    min-height: 339px;
+    width: 416px;
+}
+
+.text-kiri_1 {
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #c76a4d;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px  2px 0 #fff,
+        2px  2px 0 #fff,
+        -2px  0px 0 #fff,
+        2px  0px 0 #fff,
+        0px -2px 0 #fff,
+        0px  2px 0 #fff;
+}
+
+.anomali_1 {
+    border-bottom: #c76a4d solid;
+    border-width: 6px;
+    margin-bottom: 10px;
+}
+
+.text-kiri_2 {
+    text-align: center;
+    font-size: 33px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #c76a4d;
+    text-shadow: 
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px  2px 0 #fff,
+        2px  2px 0 #fff,
+        -2px  0px 0 #fff,
+        2px  0px 0 #fff,
+        0px -2px 0 #fff,
+        0px  2px 0 #fff;
+}
+
+.text-kiri_3 {
+    padding-right: 4rem;
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+    color: #c76a4d;
+    text-shadow: 
+        -1px -2px 0 #fff,
+        1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+        1px  1px 0 #fff,
+        -1px  0px 0 #fff,
+        1px  0px 0 #fff,
+        0px -1px 0 #fff,
+        0px  1px 0 #fff;
+}
+
+.text-kanan_1 {
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #c76a4d;
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff,
+        -2px 0px 0 #fff,
+        2px 0px 0 #fff,
+        0px -2px 0 #fff,
+        0px 2px 0 #fff;
+}
+
+.anomali_2 {
+    border-bottom: #c76a4d solid;
+    border-width: 6px;
+    margin-bottom: 10px;
+}
+
+.text-kanan_2 {
+    letter-spacing: 2px;
+    font-size: 33px;
+    text-align: center;
+    font-weight: bold;
+    color: #c76a4d;
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff,
+        -2px 0px 0 #fff,
+        2px 0px 0 #fff,
+        0px -2px 0 #fff,
+        0px 2px 0 #fff;
+}
+
+
+.text-kanan_3 {
+    padding-right: 4rem;
+    font-size: 22px;
+    text-align: right;
+    font-weight: bold;
+    color: #c76a4d;
+    text-shadow: 
+        -1px -2px 0 #fff,
+        1px -1px 0 #fff,
+        -1px  1px 0 #fff,
+        1px  1px 0 #fff,
+        -1px  0px 0 #fff,
+        1px  0px 0 #fff,
+        0px -1px 0 #fff,
+        0px  1px 0 #fff;
+}
+
+.harga {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -6rem;
+    padding-left: 7rem;
+    padding-right: 15rem;
+    padding-bottom: 1rem;
+}
+
+.harga .biru-tosca-kiri,
+.harga .kunyit-kanan {
+    background-color: #68c7c1;
+    height: 73px;
+    width: 182px;
+    border: black solid;
+    color: #4a2d25;
+    font-weight: bold;
+    font-size: 33px;
+    text-align: center;
+    padding-top: 10px;
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff,
+        -2px 0px 0 #fff,
+        2px 0px 0 #fff,
+        0px -2px 0 #fff,
+        0px 2px 0 #fff;
+}
+
+.harga .kunyit-kanan {
+    background-color: #faca78;
+    height: 73px;
+    width: 182px;
+}
+
+.biru-tosca-kiri .oren-kanan p {
+    color: #4a2d25;
+    font-weight: bold;
+    font-size: 33px;
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff,
+        -2px 0px 0 #fff,
+        2px 0px 0 #fff,
+        0px -2px 0 #fff,
+        0px 2px 0 #fff;
+}
+
+.button-orange {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 9rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.button-orange .orange-kiri, .button-orange .orange-kanan {
+    background-image: url(img/kiri.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 90px;
+    width: 600px;
+}
+
+.orange-kiri {
+    color: #c05143;
+    font-weight: bold;
+    font-size: 28px;
+    cursor: pointer;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.orange-kanan {
+    color: #c05143;
+    font-weight: bold;
+    font-size: 28px;
+    cursor: pointer;
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+}
+
+.orange-kiri:hover {
+    color: #000000;
+    font-size: 30px;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.orange-kanan:hover {
+    color: #000000;
+    font-size: 30px;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.section_5 {
+    position: relative;
+    margin-top: 6.5rem;
+}
+
+.kotak-tumpuk-merah {
+    position: absolute;
+    background-image: url(img/tumpuk\ merahh.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 6rem;
+    height: 500px;
+    width: 790px;
+    margin-top: -57rem;
+}
+
+.kotak-tumpuk-merah p {
+    margin: 30px 50px 10px 20px;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 1.5;
+    color: #8c1e14;
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff,
+        -2px 0px 0 #fff,
+        2px 0px 0 #fff,
+        0px -2px 0 #fff,
+        0px 2px 0 #fff;
+}
+
+.rating {
+    background-image: url(img/rating\ bintang.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 212px;
+    width: 212px;
+    position: absolute;
+    margin-left: 1.4rem;
+    margin-top: -24.8rem;
+}
+
+.teks_atas {
+    color: #b16058;
+    margin-top: -21rem;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.teks_bawah {
+    color: #b16058;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.section_6 {
+    position: relative;
+    margin-top: 5rem;
+}
+
+.voucher .kupon a {
+    position: absolute;
+    background-image: url(img/voucher\ biru.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 440px;
+    height: 477px;
+    margin-top: -45rem;
+    margin-left: 16rem;
+}
+
+.kupon a {
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #1d4643;
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff,
+        -2px 0px 0 #fff,
+        2px 0px 0 #fff,
+        0px -2px 0 #fff,
+        0px 2px 0 #fff;
+}
+
+.voucher .kupon a:hover {
+    color: #491813;
+    font-size: 30px;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.texttt img {
+    position: absolute;
+    bottom: 30rem;
+    left: 10rem;
+}
+
+.textttt {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    bottom: 31.5rem;
+    left: 12rem;
+    right: 12rem;
+
+}
+
+.jal .jal2 a {
+    background-image: url(img/pesawat\ merah.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 420px;
+    height: 477px;
+    position: absolute;
+    margin-top: -25rem;
+    margin-left: -3rem;
+}
+
+.jal2 a {
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #1d4643;
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff,
+        -2px 0px 0 #fff,
+        2px 0px 0 #fff,
+        0px -2px 0 #fff,
+        0px 2px 0 #fff;
+}
+
+.jal .jal2 a:hover {
+    color: #cac484;
+    font-size: 28px;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.ana .ana2 a {
+    background-image: url(img/pesawat\ kuning.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 420px;
+    height: 477px;
+    position: absolute;
+    margin-top: -25rem;
+    margin-left: 35rem;
+}
+
+.ana2 a {
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #1d4643;
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff,
+        -2px 0px 0 #fff,
+        2px 0px 0 #fff,
+        0px -2px 0 #fff,
+        0px 2px 0 #fff;
+}
+
+.ana .ana2 a:hover {
+    color: #5ea4a5;
+    font-size: 28px;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.plan .plan2 a {
+    background-image: url(img/tombol\ coklat.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 420px;
+    height: 477px;
+    position: absolute;
+    margin-top: -15rem;
+    margin-left: 17rem;
+}
+
+.plan2 a {
+    font-size: 26px;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #1d4643;
+    text-shadow:
+        -2px -2px 0 #fff,
+        2px -2px 0 #fff,
+        -2px 2px 0 #fff,
+        2px 2px 0 #fff,
+        -2px 0px 0 #fff,
+        2px 0px 0 #fff,
+        0px -2px 0 #fff,
+        0px 2px 0 #fff;
+}
+
+.plan .plan2 a:hover {
+    color: #b55b51;
+    font-size: 28px;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
